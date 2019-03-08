@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123456789",
+    "database": "projetocarnaval",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "./__tests__/database.sqlite",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "123456789",
+    "database": "projetocarnaval",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
